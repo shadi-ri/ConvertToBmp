@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DEFAULT_PHOTO_NAME = exports.OUTPUT_PATH = exports.INPUT_PATH = exports.exifParser = exports.Jimp = exports.fs = void 0;
+var fs = require('fs');
+exports.fs = fs;
+var Jimp = require('jimp');
+exports.Jimp = Jimp;
+var exifParser = require('exif-parser');
+exports.exifParser = exifParser;
+var INPUT_PATH = './in/';
+exports.INPUT_PATH = INPUT_PATH;
+var OUTPUT_PATH = './out/';
+exports.OUTPUT_PATH = OUTPUT_PATH;
+var DEFAULT_PHOTO_NAME = 'photo.jpg';
+exports.DEFAULT_PHOTO_NAME = DEFAULT_PHOTO_NAME;
